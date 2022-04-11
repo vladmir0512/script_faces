@@ -1,7 +1,7 @@
 # script_faces
 
 
-#установить модуль opencv
+#установить модуль "opencv":
 pip install opencv-python
 
 #запустить файл main.py
