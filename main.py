@@ -11,9 +11,9 @@ def check_face(img_dir):
         cv2.rectangle(img, (x, y), (x + w, y + h), (0, 0, 255), thickness=3)
         count += 1
     if count == 1:
-        count == True
+        count = True
     elif count == 0:
-        count == False
+        count = False
     else:
         print("Error. Count not equals 1")
 
@@ -24,7 +24,7 @@ def check_face(img_dir):
 
     return bool(count)
 
-im = input('Enter the name of file in Images folder. Example: 1.jpg\n')
+im = input('Enter the name of file. Example: 1.jpg\n')
 
-if (check_face('images/'+ im)):
+if (check_face('im')):
     print("Authenticated.")
