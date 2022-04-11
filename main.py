@@ -1,7 +1,7 @@
 import cv2
 
-def check_face(img_dir):
-    img = cv2.imread(img_dir) #Прочитать то, что даем на вход
+def check_face(img_):
+    img = cv2.imread(img_) #Прочитать то, что даем на вход
     img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     faces = cv2.CascadeClassifier('faces.xml')
     results = faces.detectMultiScale(img, scaleFactor=2, minNeighbors=1)
@@ -26,5 +26,5 @@ def check_face(img_dir):
 
 im = input('Enter the name of file. Example: 1.jpg\n')
 
-if (check_face('im')):
+if (check_face(im)):
     print("Authenticated.")
