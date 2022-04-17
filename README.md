@@ -7,8 +7,7 @@
 ##запустить файл main.py с аргументом (путь до фото):
 > python3 main.py images/1.jpg
 
-![image](https://user-images.githubusercontent.com/64857946/161704645-edf7ff37-d54f-41e7-8340-9683f8771587.png)
+![image](https://user-images.githubusercontent.com/64857946/163720551-68753f55-a59d-45b9-ba5d-8b4d1a2836b3.png)
 
-В консоли введите нужное имя файла, которое хранится в папке Images.
-
+В консоли введите путь до фото.
 Если скрипт нашел на фото одно лицо, то он выдаст Authenticated.
