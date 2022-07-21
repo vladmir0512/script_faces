@@ -1,10 +1,10 @@
-## script_faces
+### script_faces
 
 
-##установить модуль "opencv":
+### Установить модуль "opencv":
 > pip install opencv-python
 
-##запустить файл main.py с аргументом (путь до фото):
+### Запустить файл main.py с аргументом (путь до фото):
 > python3 main.py images/1.jpg
 
 ![image](https://user-images.githubusercontent.com/64857946/163720551-68753f55-a59d-45b9-ba5d-8b4d1a2836b3.png)
