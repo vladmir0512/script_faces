@@ -1,5 +1,10 @@
-### script_faces
+# SCRIPT FACES
 
+### Добро пожаловать на страничку проекта script_faces
+
+Status: ![https://img.shields.io/badge/Status-WIP-red](https://img.shields.io/badge/Status-WIP-red) ![https://img.shields.io/badge/Realese-No-red](https://img.shields.io/badge/Realese-No-red)
+
+Language: ![https://img.shields.io/badge/Python-3.7.5-blue](https://img.shields.io/badge/Python-3.7.5-blue)
 
 ### Установить модуль "opencv":
 > pip install opencv-python
